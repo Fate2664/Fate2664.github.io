@@ -1,0 +1,82 @@
+[
+  {
+    "id": "section-01",
+    "title": "Cover",
+    "image": "assets/projects/coreline/section-01.webp",
+    "width": 1400,
+    "height": 950,
+    "transcript": "GAME DEVELOPMENT CASE STUDY\nCORELINE LLM \nGAME\nLOCAL AI • ROBOT AUTOMATION • UNITY / C#\nMINE BY HAND. \nBUILD ROBOTS.\nTELL THEM WHAT TO DO.\nOLLAMA\nUNITY\nC#\nLOCAL LLM"
+  },
+  {
+    "id": "section-02",
+    "title": "Project overview",
+    "image": "assets/projects/coreline/section-02.webp",
+    "width": 1400,
+    "height": 960,
+    "transcript": "01 / PROJECT OVERVIEW\nFROM MANUAL MINING\nTO AI-DRIVEN AUTOMATION.\nThe player starts by mining ores manually. As \nresources accumulate, they can craft specialised \nrobots that automate parts of the mining loop. The \ndefining feature is that each robot can receive \nnatural-language instructions through a chat \ninterface powered by a local Ollama LLM.\nMY ROLE\nPROGRAMMING +\nGAME IMPLEMENTATION\nTwo-person team. My teammate created \nthe robot models. I implemented them in \nUnity and built the gameplay logic, AI \ninteraction, robot actions, progression \nsystems and UI integration.\n2 PERSON TEAM\nPierre Louw - Programmer\nNick Smart - Artist\nENGINE\nUNITY\nPROJECT BRIEF\nIntegrate a local LLM model from \nOllama into any game concept \nand make it meaningfully affect \ngameplay.\nLANGUAGE\nC#\nAI\nOLLAMA / LOCAL LLM"
+  },
+  {
+    "id": "section-03",
+    "title": "Core gameplay loop",
+    "image": "assets/projects/coreline/section-03.webp",
+    "width": 1400,
+    "height": 1140,
+    "transcript": "02 / CORE GAMEPLAY LOOP\nSTART WITH A PICKAXE.\nEND WITH A WORKFORCE.\nThe progression loop moves the player from direct resource gathering \ninto increasingly automated production.\nMINE\nGather ores\n→\nCRAFT\nBuild robots\n→\nINSTRUCT\nUse natural language →\nAUTOMATE\nRobots perform tasks →\nUPGRADE\nImprove efficiency\nMANUAL GATHERING\nROBOT AUTOMATION\nCRAFT + EXPAND"
+  },
+  {
+    "id": "section-04",
+    "title": "Natural language becomes gameplay",
+    "image": "assets/projects/coreline/section-04.webp",
+    "width": 1400,
+    "height": 1260,
+    "transcript": "03 / TECHNICAL HIGHLIGHT\nNATURAL LANGUAGE\nBECOMES GAMEPLAY.\nInstead of choosing from a fixed command menu, the \nplayer can type an instruction to a robot. A local Ollama \nmodel interprets the request and returns structured JSON. \nUnity then parses that response and converts it into \nactions the robot can execute.\nLOCAL MODEL\nJSON OUTPUT\nC# PARSING\nPLAYER \nMESSAGE\nNatural-language \ninstruction\n→\nOLLAMA\nLocal LLM inference →\nJSON\nStructured \nresponse\n→\nC# PARSER\nValidate + map data →\nROBOT ACTION\nExecute behaviour\nCONCEPTUAL LLM RESPONSE\n{\n  “sequence”:[{\n  \"action\": \"mine_resource\",\n  \"target\": \"emerald_node\",\n  \"priority\": “high”,},\n   ...\n}\nTHE LLM INTERPRETS INTENT. UNITY REMAINS IN CONTROL OF THE GAME STATE."
+  },
+  {
+    "id": "section-05",
+    "title": "The robots",
+    "image": "assets/projects/coreline/section-05.webp",
+    "width": 1400,
+    "height": 1600,
+    "transcript": "04 / THE ROBOTS\nTHREE ROBOTS.\nTHREE SPECIALISED ROLES.\nMINING ROBOT\nThe mining robot extracts ores \nfrom rocks much faster and  \nmore efficient than you. It also \nhas the ability to mine some \nores that the player is not able \nto extract themself.\nCOLLECTION ROBOT\nThe collection robot supports \nyour mining robots as they can \nfollow any mining robot and \ncollect the ores that are \nmined. Once full, you can tell it \nto deliver their inventory into a \nspecific chest.\nSCANNING ROBOT\nThe scanning robot scans the \narea for ore rocks so that the \nother robots are able to see \nthem. The ore rocks within the \nscan area appear with their \nicons above them."
+  },
+  {
+    "id": "section-06",
+    "title": "Command & observe",
+    "image": "assets/projects/coreline/section-06.webp",
+    "width": 1400,
+    "height": 1148,
+    "transcript": "06 / AUTOMATION\nCOMMAND & OBSERVE.\nYou give the robot new tasks through a chat window and \nwatch them as they do the work for you.\nNATURAL-LANGUAGE TASKING\nOBSERVE THE ROBOT EXECUTE YOUR INSTRUCTIONS"
+  },
+  {
+    "id": "section-07",
+    "title": "Crafting & progression",
+    "image": "assets/projects/coreline/section-07.webp",
+    "width": 1400,
+    "height": 869,
+    "transcript": "07 / CRAFTING + PROGRESSION\nRESOURCES BECOME\nINFRASTRUCTURE.\nThe automation system is supported by a wider resource loop: mine ore, refine \nmaterials, craft robots, store resources and reinvest them into upgrades.\nMINE\nSMELT\nUPGRADE"
+  },
+  {
+    "id": "section-08",
+    "title": "Programming contribution",
+    "image": "assets/projects/coreline/section-08.webp",
+    "width": 1400,
+    "height": 1339,
+    "transcript": "05 / MY PROGRAMMING CONTRIBUTION\nBUILDING THE LOGIC  \nAND GAME SYSTEMS.\nMy responsibility was the technical implementation that connected the \nworld, the robots and the local language model into one playable system.\nROBOT LOGIC\n01\nLLM BRIDGE & JSON PARSING\n02\n03\nUI + SYSTEMS\nImplemented a chat box for both the \nmining robot and collection robot where \nthe player gives the local LLM \ninstructions.\nThe LLM responds with structured \nJSON text.\nPart of the model’s base system \nprompt:\nIntegrated a basic polished menu & \nsettings UI for the game.\nThe LLM response is then parsed into \nactions that can be sequenced for the \nunity AI.\nParsing movement and mining \nresponses into their actions:"
+  },
+  {
+    "id": "section-09",
+    "title": "The future",
+    "image": "assets/projects/coreline/section-09.webp",
+    "width": 1400,
+    "height": 1080,
+    "transcript": "10 / FUTURE OF CORELINE\nTHE FUTURE OF \nCORELINE\nThe plan for Coreline is to add more gameplay features and flesh-out the game progression. \nIn addition to this, AI research is constantly moving forward and therefore improvements to \nmodel implementation improvements will also be in question and the AI landscape evolves.\nUNITY • C# • LOCAL LLM"
+  },
+  {
+    "id": "section-10",
+    "title": "Thanks for viewing",
+    "image": "assets/projects/coreline/section-10.webp",
+    "width": 1400,
+    "height": 650,
+    "transcript": "CORELINE LLM GAME\nPROGRAMMING + AI GAMEPLAY CASE STUDY\nTHANKS FOR VIEWING.\nA two-person Unity project exploring local language models as a direct \ngameplay input."
+  }
+]

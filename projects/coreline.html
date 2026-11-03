@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" class="project-document"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#130821"><title>Coreline — Pierre Louw</title><meta name="description" content="A mining game where natural-language instructions become robot actions. Built in Unity with a local Ollama language model."><link rel="canonical" href="https://fate2664.github.io/projects/coreline.html"><meta property="og:title" content="Coreline — Pierre Louw"><meta property="og:description" content="A mining game where natural-language instructions become robot actions. Built in Unity with a local Ollama language model."><meta property="og:type" content="article"><meta property="og:url" content="https://fate2664.github.io/projects/coreline.html"><meta property="og:image" content="https://fate2664.github.io/assets/images/coreline-thumbnail.webp"><link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="../assets/css/styles.css"><script src="../assets/js/site.js" defer></script><script src="../assets/js/media.js" defer></script><script src="../assets/js/project.js" defer></script></head>
+<body class="project-page"><a class="skip-link" href="#main">Skip to project</a>
+<header class="site-header"><div class="header-inner wrap"><a class="brand" href="../" aria-label="Pierre Louw home"><span class="brand-symbol" aria-hidden="true">P<span>L</span><i></i></span><span class="brand-name">PIERRE LOUW<span>GAME DEVELOPER</span></span></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation"><span></span><span></span></button><nav id="main-nav" aria-label="Main navigation"><a href="../#work">Work<span>01</span></a><a href="../#about">About<span>02</span></a><a href="../#contact" class="nav-contact">Let’s talk <span aria-hidden="true">↗</span></a></nav></div></header>
+<main id="main"><div class="project-header wrap"><a class="back-link" href="../#work">← ALL PROJECTS</a><div class="project-title-row"><div><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>AI & GAMEPLAY SYSTEMS</p><h1>Coreline<span class="cyan">.</span></h1><p class="project-intro">A mining game where natural-language instructions become robot actions. Built in Unity with a local Ollama language model.</p></div><div class="project-facts"><div><span>MY ROLE</span><strong>Programming & AI integration</strong></div><div><span>BUILT WITH</span><strong>Unity / C# / Ollama</strong></div></div></div></div>
+<div class="project-toolbar"><div class="wrap project-toolbar-inner"><label for="section-select"><span>EXPLORE</span><select id="section-select" aria-label="Jump to a project section"><option value="section-01">Cover</option><option value="section-02">Project overview</option><option value="section-03">Core gameplay loop</option><option value="section-04">Natural language becomes gameplay</option><option value="section-05">The robots</option><option value="section-06">Command & observe</option><option value="section-07">Crafting & progression</option><option value="section-08">Programming contribution</option><option value="section-09">The future</option><option value="section-10">Thanks for viewing</option></select></label><div class="toolbar-buttons"><button type="button" class="toolbar-button" data-text-view aria-pressed="false">Text view</button><button type="button" class="toolbar-button expand-button" data-expand aria-pressed="false">Expand artwork</button></div></div><div class="reading-progress" aria-hidden="true"></div></div>
+<noscript><style>.project-toolbar{display:none}.section-copy{display:block}</style><p class="viewer-note">The artwork and project text are available below. Enable JavaScript for section navigation and media controls.</p></noscript>
+<div class="gallery" data-project="coreline"><section class="art-section" id="section-01" data-title="Cover" data-width="1400" data-height="950" aria-label="Cover">
+  <div class="artwork" style="--section-ratio:1400/950"><img src="../assets/projects/coreline/section-01.webp" alt="Coreline — Cover. Select Text view above for the written content." width="1400" height="950" loading="eager" decoding="async"><img class="media-overlay cover-overlay" src="../assets/images/coreline-menu.webp" alt="Coreline main menu at a forest campsite" width="733" height="413"></div>
+  <div class="section-copy"><h2>Cover</h2><p>GAME DEVELOPMENT CASE STUDY
+CORELINE LLM 
+GAME
+LOCAL AI • ROBOT AUTOMATION • UNITY / C#
+MINE BY HAND. 
+BUILD ROBOTS.
+TELL THEM WHAT TO DO.
+OLLAMA
+UNITY
+C#
+LOCAL LLM</p></div></section><section class="art-section" id="section-02" data-title="Project overview" data-width="1400" data-height="960" aria-label="Project overview">
+  <div class="artwork" style="--section-ratio:1400/960"><img src="../assets/projects/coreline/section-02.webp" alt="Coreline — Project overview. Select Text view above for the written content." width="1400" height="960" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>Project overview</h2><p>01 / PROJECT OVERVIEW
+FROM MANUAL MINING
+TO AI-DRIVEN AUTOMATION.
+The player starts by mining ores manually. As 
+resources accumulate, they can craft specialised 
+robots that automate parts of the mining loop. The 
+defining feature is that each robot can receive 
+natural-language instructions through a chat 
+interface powered by a local Ollama LLM.
+MY ROLE
+PROGRAMMING +
+GAME IMPLEMENTATION
+Two-person team. My teammate created 
+the robot models. I implemented them in 
+Unity and built the gameplay logic, AI 
+interaction, robot actions, progression 
+systems and UI integration.
+2 PERSON TEAM
+Pierre Louw - Programmer
+Nick Smart - Artist
+ENGINE
+UNITY
+PROJECT BRIEF
+Integrate a local LLM model from 
+Ollama into any game concept 
+and make it meaningfully affect 
+gameplay.
+LANGUAGE
+C#
+AI
+OLLAMA / LOCAL LLM</p></div></section><section class="art-section" id="section-03" data-title="Core gameplay loop" data-width="1400" data-height="1140" aria-label="Core gameplay loop">
+  <div class="artwork" style="--section-ratio:1400/1140"><img src="../assets/projects/coreline/section-03.webp" alt="Coreline — Core gameplay loop. Select Text view above for the written content." width="1400" height="1140" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>Core gameplay loop</h2><p>02 / CORE GAMEPLAY LOOP
+START WITH A PICKAXE.
+END WITH A WORKFORCE.
+The progression loop moves the player from direct resource gathering 
+into increasingly automated production.
+MINE
+Gather ores
+→
+CRAFT
+Build robots
+→
+INSTRUCT
+Use natural language →
+AUTOMATE
+Robots perform tasks →
+UPGRADE
+Improve efficiency
+MANUAL GATHERING
+ROBOT AUTOMATION
+CRAFT + EXPAND</p></div></section><section class="art-section" id="section-04" data-title="Natural language becomes gameplay" data-width="1400" data-height="1260" aria-label="Natural language becomes gameplay">
+  <div class="artwork" style="--section-ratio:1400/1260"><img src="../assets/projects/coreline/section-04.webp" alt="Coreline — Natural language becomes gameplay. Select Text view above for the written content." width="1400" height="1260" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>Natural language becomes gameplay</h2><p>03 / TECHNICAL HIGHLIGHT
+NATURAL LANGUAGE
+BECOMES GAMEPLAY.
+Instead of choosing from a fixed command menu, the 
+player can type an instruction to a robot. A local Ollama 
+model interprets the request and returns structured JSON. 
+Unity then parses that response and converts it into 
+actions the robot can execute.
+LOCAL MODEL
+JSON OUTPUT
+C# PARSING
+PLAYER 
+MESSAGE
+Natural-language 
+instruction
+→
+OLLAMA
+Local LLM inference →
+JSON
+Structured 
+response
+→
+C# PARSER
+Validate + map data →
+ROBOT ACTION
+Execute behaviour
+CONCEPTUAL LLM RESPONSE
+{
+  “sequence”:[{
+  &quot;action&quot;: &quot;mine_resource&quot;,
+  &quot;target&quot;: &quot;emerald_node&quot;,
+  &quot;priority&quot;: “high”,},
+   ...
+}
+THE LLM INTERPRETS INTENT. UNITY REMAINS IN CONTROL OF THE GAME STATE.</p></div></section><section class="art-section" id="section-05" data-title="The robots" data-width="1400" data-height="1600" aria-label="The robots">
+  <div class="artwork" style="--section-ratio:1400/1600"><img src="../assets/projects/coreline/section-05.webp" alt="Coreline — The robots. Select Text view above for the written content." width="1400" height="1600" loading="lazy" decoding="async"><img class="media-overlay robot-mining" src="../assets/images/coreline-mining.webp" alt="Coreline gameplay still" loading="lazy"><img class="media-overlay robot-collection" src="../assets/images/coreline-collection.webp" alt="Coreline gameplay still" loading="lazy"><img class="media-overlay robot-scanning" src="../assets/images/coreline-scanning.webp" alt="Coreline gameplay still" loading="lazy"></div>
+  <div class="section-copy"><h2>The robots</h2><p>04 / THE ROBOTS
+THREE ROBOTS.
+THREE SPECIALISED ROLES.
+MINING ROBOT
+The mining robot extracts ores 
+from rocks much faster and  
+more efficient than you. It also 
+has the ability to mine some 
+ores that the player is not able 
+to extract themself.
+COLLECTION ROBOT
+The collection robot supports 
+your mining robots as they can 
+follow any mining robot and 
+collect the ores that are 
+mined. Once full, you can tell it 
+to deliver their inventory into a 
+specific chest.
+SCANNING ROBOT
+The scanning robot scans the 
+area for ore rocks so that the 
+other robots are able to see 
+them. The ore rocks within the 
+scan area appear with their 
+icons above them.</p></div></section><section class="art-section" id="section-06" data-title="Command &amp; observe" data-width="1400" data-height="1148" aria-label="Command &amp; observe">
+  <div class="artwork" style="--section-ratio:1400/1148"><img src="../assets/projects/coreline/section-06.webp" alt="Coreline — Command &amp; observe. Select Text view above for the written content." width="1400" height="1148" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>Command &amp; observe</h2><p>06 / AUTOMATION
+COMMAND &amp; OBSERVE.
+You give the robot new tasks through a chat window and 
+watch them as they do the work for you.
+NATURAL-LANGUAGE TASKING
+OBSERVE THE ROBOT EXECUTE YOUR INSTRUCTIONS</p></div></section><section class="art-section" id="section-07" data-title="Crafting &amp; progression" data-width="1400" data-height="869" aria-label="Crafting &amp; progression">
+  <div class="artwork" style="--section-ratio:1400/869"><img src="../assets/projects/coreline/section-07.webp" alt="Coreline — Crafting &amp; progression. Select Text view above for the written content." width="1400" height="869" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>Crafting &amp; progression</h2><p>07 / CRAFTING + PROGRESSION
+RESOURCES BECOME
+INFRASTRUCTURE.
+The automation system is supported by a wider resource loop: mine ore, refine 
+materials, craft robots, store resources and reinvest them into upgrades.
+MINE
+SMELT
+UPGRADE</p></div></section><section class="art-section" id="section-08" data-title="Programming contribution" data-width="1400" data-height="1339" aria-label="Programming contribution">
+  <div class="artwork" style="--section-ratio:1400/1339"><img src="../assets/projects/coreline/section-08.webp" alt="Coreline — Programming contribution. Select Text view above for the written content." width="1400" height="1339" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>Programming contribution</h2><p>05 / MY PROGRAMMING CONTRIBUTION
+BUILDING THE LOGIC  
+AND GAME SYSTEMS.
+My responsibility was the technical implementation that connected the 
+world, the robots and the local language model into one playable system.
+ROBOT LOGIC
+01
+LLM BRIDGE &amp; JSON PARSING
+02
+03
+UI + SYSTEMS
+Implemented a chat box for both the 
+mining robot and collection robot where 
+the player gives the local LLM 
+instructions.
+The LLM responds with structured 
+JSON text.
+Part of the model’s base system 
+prompt:
+Integrated a basic polished menu &amp; 
+settings UI for the game.
+The LLM response is then parsed into 
+actions that can be sequenced for the 
+unity AI.
+Parsing movement and mining 
+responses into their actions:</p></div></section><section class="art-section" id="section-09" data-title="The future" data-width="1400" data-height="1080" aria-label="The future">
+  <div class="artwork" style="--section-ratio:1400/1080"><img src="../assets/projects/coreline/section-09.webp" alt="Coreline — The future. Select Text view above for the written content." width="1400" height="1080" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>The future</h2><p>10 / FUTURE OF CORELINE
+THE FUTURE OF 
+CORELINE
+The plan for Coreline is to add more gameplay features and flesh-out the game progression. 
+In addition to this, AI research is constantly moving forward and therefore improvements to 
+model implementation improvements will also be in question and the AI landscape evolves.
+UNITY • C# • LOCAL LLM</p></div></section><section class="art-section" id="section-10" data-title="Thanks for viewing" data-width="1400" data-height="650" aria-label="Thanks for viewing">
+  <div class="artwork" style="--section-ratio:1400/650"><img src="../assets/projects/coreline/section-10.webp" alt="Coreline — Thanks for viewing. Select Text view above for the written content." width="1400" height="650" loading="lazy" decoding="async"></div>
+  <div class="section-copy"><h2>Thanks for viewing</h2><p>CORELINE LLM GAME
+PROGRAMMING + AI GAMEPLAY CASE STUDY
+THANKS FOR VIEWING.
+A two-person Unity project exploring local language models as a direct 
+gameplay input.</p></div></section></div>
+<div class="project-next wrap"><div><p class="small-label">KEEP EXPLORING</p><h2>Another world.<br>Another challenge.</h2><p>Take a look behind the scenes of my next project.</p></div><a class="next-project-link" href="dash-drive.html"><img src="../assets/images/dash-drive-thumbnail.webp" alt="" width="115" height="75" loading="lazy"><span><span class="small-label">NEXT PROJECT</span><strong>Dash Drive</strong></span><span aria-hidden="true">↗</span></a></div></main>
+<footer class="site-footer wrap"><p>© <span data-year>2026</span> Pierre Louw</p><span>GAME DEVELOPMENT PORTFOLIO</span><div><button class="motion-toggle" type="button" aria-pressed="false">Pause motion</button><a href="#main">Back to top ↑</a></div></footer></body></html>

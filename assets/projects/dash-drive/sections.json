@@ -1,0 +1,90 @@
+[
+  {
+    "id": "section-01",
+    "title": "Cover",
+    "image": "assets/projects/dash-drive/section-01.webp",
+    "width": 1400,
+    "height": 1000,
+    "transcript": "GAME DEVELOPMENT CASE STUDY\nDASH DRIVE\n3D ENDLESS RUNNER • UNITY / C#\nSWERVE THROUGH TRAFFIC. \n\nOUTRUN THE POLICE.\n\nREACH YOUR HIGH SCORE.\nPROGRAMMING\nUNITY\nC#"
+  },
+  {
+    "id": "section-02",
+    "title": "Project overview",
+    "image": "assets/projects/dash-drive/section-02.webp",
+    "width": 1400,
+    "height": 950,
+    "transcript": "01 / PROJECT OVERVIEW\nFIRST UNITY PROJECT.\nBUILT TO MOVE FAST.\nMY ROLE\nPROGRAMMER +\nIMPLEMENTATION\nDash Drive is a 3D endless runner where the \nplayer controls a sports car across three traffic \nlanes, dodging vehicles and obstacles while \npushing for a higher score and distance. The \nroute progresses from a suburban district into a \ndense city section, with a police pursuit acting as \na boss encounter in each area.\nTwo-person team. My teammate \ncreated the visual artwork and models \nwhile I handled all programming, Unity \nimplementation, gameplay systems, UI \nintegration and technical assembly.\nPROJECT OUTLINE\nWe were tasked to create a 3D \nendless runner with multiple \nobstacles, two distinct sections or \n“levels”, and a boss encounter for \neach section.\n2 PERSON TEAM\nPierre Louw - Programmer\nNick Smart - Artist\nENGINE\nUNITY\nLANGUAGE\nC#\nTOOLS\nUNITY + BLENDER"
+  },
+  {
+    "id": "section-03",
+    "title": "Core gameplay",
+    "image": "assets/projects/dash-drive/section-03.webp",
+    "width": 1400,
+    "height": 1180,
+    "transcript": "02 / CORE GAMEPLAY\nTHREE LANES.\nThe core loop is deliberately simple: read the road, switch \nlanes, avoid traffic and keep the run alive.\nCORE LOOP  →  READ  /  SWERVE  /  AVOID  /  SCORE"
+  },
+  {
+    "id": "section-04",
+    "title": "Two environments",
+    "image": "assets/projects/dash-drive/section-04.webp",
+    "width": 1400,
+    "height": 1320,
+    "transcript": "03 / TWO ENVIRONMENTS\nFROM SUBURBIA\nTO THE CITY.\nThe run is split into two visually distinct environments that \nrepeat after each other to break repetition.\nSECTION 01 / SUBURBS\nOpen residential roads, houses, trees and wider \nsightlines introduce the player to the challenge.\nSECTION 02 / CITY\nDenser buildings and a tighter visual corridor \ncreate a faster, more intense second half of the \nrun."
+  },
+  {
+    "id": "section-05",
+    "title": "Boss encounters",
+    "image": "assets/projects/dash-drive/section-05.webp",
+    "width": 1400,
+    "height": 1050,
+    "transcript": "04 / BOSS ENCOUNTERS\nAVOID\nTHE POLICE.\nEach environment ends with a timed \npolice pursuit. Instead of a traditional \nenemy fight, the boss encounter \nchanges the pressure to make the \nplayer survive the chase, keep moving \nand avoid being caught.\nBOSS OBJECTIVE\nSURVIVE FOR\nA SET TIME\nPolice pressure replaces the normal \npacing and creates a clear climax for \neach section."
+  },
+  {
+    "id": "section-06",
+    "title": "Player controls & world spawning",
+    "image": "assets/projects/dash-drive/section-06.webp",
+    "width": 1400,
+    "height": 1300,
+    "transcript": "05 / MY CONTRIBUTION\nBUILDING THE GAME LOOP\nAND PUTTING THE WORLD TOGETHER.\nMy focus was turning the artwork into a complete playable game: \nimplementing movement, endless progression, obstacle logic, scoring, boss \nevents, UI, settings and the overall gameplay loop in Unity using C#.\n01\nPLAYER CONTROLS\nI implemented a dynamic-feeling \nsteering control system where \nthe player’s car stabilizes itself \nafter a lane change. It does this \nby steering the front tyres to \ncorrect the oversteer.\n02\nENVIRONMENT SPAWNING\nSurrounding plots of land are \nspawned ahead of the player and \nsubsequently despawned after \nthe player has passed. \nConversely, there are a set \namount of road pieces that are \nrotated to the front of the list."
+  },
+  {
+    "id": "section-07",
+    "title": "Traffic & boss systems",
+    "image": "assets/projects/dash-drive/section-07.webp",
+    "width": 1400,
+    "height": 1300,
+    "transcript": "05 / MY CONTRIBUTION\nBUILDING THE GAME LOOP\nAND PUTTING THE WORLD TOGETHER.\n03\nTRAFFIC + OBSTACLE SPAWNING\nTraffic is spawned in a random \nlane ahead of the player. \nConstruction zones can spawn \non either of the side lanes and at \ndifferent lengths as they are built \nwith construction road pieces.\n04\nBOSS EVENTS\nAfter the player has covered a \ncertain distance in the current \narea, the boss section is \nspawned. In this section all traffic \nstops spawning and subsequent \npolice obstacles are spawned in \nrandom lanes."
+  },
+  {
+    "id": "section-08",
+    "title": "UI & settings",
+    "image": "assets/projects/dash-drive/section-08.webp",
+    "width": 1400,
+    "height": 908,
+    "transcript": "05 / MY CONTRIBUTION\nBUILDING THE GAME LOOP\nAND PUTTING THE WORLD TOGETHER.\n05\nUI + SETTINGS\nThe HUD, menus, settings, and \nleaderboard screens use the \nNova framework for design and \nlogic."
+  },
+  {
+    "id": "section-09",
+    "title": "Learning Unity",
+    "image": "assets/projects/dash-drive/section-09.webp",
+    "width": 1400,
+    "height": 900,
+    "transcript": "06 / LEARNING\nTHE PROJECT THAT\nTAUGHT ME UNITY.\nDash Drive was my first complete project in \nUnity. Building it required learning C# in the \ncontext of a real game, understanding Unity’s \ncomponent workflow, integrating 3D assets, \ndebugging gameplay systems and connecting \nmultiple features into one coherent build."
+  },
+  {
+    "id": "section-10",
+    "title": "The future",
+    "image": "assets/projects/dash-drive/section-10.webp",
+    "width": 1400,
+    "height": 1040,
+    "transcript": "07 / THE FUTURE\nDASH DRIVE’S FUTURE.\nWe will continue to add more features and maps/areas into the game. The \nplan is to release the game on mobile devices sometime in 2027."
+  },
+  {
+    "id": "section-11",
+    "title": "Thanks for viewing",
+    "image": "assets/projects/dash-drive/section-11.webp",
+    "width": 1400,
+    "height": 650,
+    "transcript": "DASH DRIVE\nPROGRAMMING + IMPLEMENTATION CASE STUDY\nTHANKS FOR VIEWING.\nBuilt in Unity with C# as a two-person student project."
+  }
+]
