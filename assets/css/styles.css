@@ -41,3 +41,6 @@ html.project-document{overflow-anchor:none}
 @media(max-width:760px){.project-category{font-size:11px}.project-bottom{font-size:12px}.project-title-row{display:block}.project-facts{margin-top:24px}}
 @media(max-width:540px){.project-category{font-size:12px}.project-bottom{font-size:13px;gap:8px}.project-facts>div>span{font-size:11px}.project-facts>div>strong{font-size:13px}.project-meta{flex-wrap:wrap;align-items:center}}
 @media(prefers-reduced-motion:reduce){.button,.text-link,.back-link,nav a,.contact-email,.site-footer a,.motion-toggle,.next-project-link,.project-image img,.project-open,.project-index,.project-card h3>span{transition:none!important}}
+
+/* Project cards use their title/link affordance, without a circular overlay icon. */
+.project-card .project-open{display:none!important}
