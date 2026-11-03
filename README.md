@@ -9,10 +9,10 @@ In this repository, open **Settings → Pages**. Under Build and deployment, cho
 ## Contents
 
 - `index.html`: introduction, project cards, about and contact sections.
-- `projects/dash-drive.html` and `projects/coreline.html`: continuous, Behance-style project galleries. Each has section navigation, artwork expansion, a progress line, and an accessible text view.
+- `projects/dash-drive.html` and `projects/coreline.html`: continuous, Behance-style project galleries. Each has section navigation, automatic responsive artwork width, a progress line, and text available to assistive technology.
 - `assets/css/styles.css`: colours, layout, responsive rules, typography and motion.
 - `assets/js/site.js`: navigation, scroll reveals, controller interaction and motion preferences.
-- `assets/js/project.js`: gallery navigation, text view and optional animated media.
+- `assets/js/project.js`: gallery navigation and optional animated media.
 - `assets/js/media.js`: the editable configuration for GIF/video replacements.
 - `assets/projects/`: optimised artwork sections, rendered directly from the supplied PDFs at their original 1400-pixel width, and extracted text metadata.
 - `assets/images/`: supplied thumbnails, gameplay stills and the portfolio favicon.

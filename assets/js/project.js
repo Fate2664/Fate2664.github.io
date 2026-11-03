@@ -4,8 +4,6 @@
   if (!gallery) return;
   const sectionSelect = document.querySelector('#section-select');
   const progress = document.querySelector('.reading-progress');
-  const textButton = document.querySelector('[data-text-view]');
-  const expandButton = document.querySelector('[data-expand]');
   const sections = [...gallery.querySelectorAll('.art-section')];
   const motionPaused = () => document.documentElement.classList.contains('motion-paused');
   sectionSelect?.addEventListener('change', () => {
@@ -13,23 +11,6 @@
     if (!section) return;
     section.scrollIntoView({ behavior: motionPaused() ? 'instant' : 'smooth', block: 'start' });
     history.replaceState(null, '', `#${section.id}`);
-  });
-  textButton?.addEventListener('click', () => {
-    const current = sections.find(s => s.getBoundingClientRect().bottom > 80);
-    const active = gallery.classList.toggle('text-mode');
-    textButton.setAttribute('aria-pressed', String(active));
-    textButton.textContent = active ? 'Artwork view' : 'Text view';
-    if (gallery.getBoundingClientRect().top < 70) current?.scrollIntoView({ behavior: 'instant' });
-    updateProgress();
-  });
-  expandButton?.addEventListener('click', () => {
-    const current = document.getElementById(sectionSelect?.value);
-    const wasScrolled = gallery.getBoundingClientRect().top < 80;
-    const active = gallery.classList.toggle('expanded');
-    expandButton.setAttribute('aria-pressed', String(active));
-    expandButton.textContent = active ? 'Fit width' : 'Expand artwork';
-    if (wasScrolled) current?.scrollIntoView({ behavior: 'instant' });
-    updateProgress();
   });
   let queued = false;
   function updateProgress() {
