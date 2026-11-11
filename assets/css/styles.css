@@ -44,3 +44,7 @@ html.project-document{overflow-anchor:none}
 
 /* Project cards use their title/link affordance, without a circular overlay icon. */
 .project-card .project-open{display:none!important}
+
+/* The cover MP4 includes side margins; enlarge it to align the artwork with the gallery. */
+.gallery[data-project="coreline"] #section-01 .artwork{overflow:hidden}
+.gallery[data-project="coreline"] #section-01 .artwork>video{width:120%;max-width:none;margin-left:-10%;height:auto;aspect-ratio:auto}
