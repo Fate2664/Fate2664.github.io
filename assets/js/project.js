@@ -51,7 +51,7 @@
       }
     };
     if (isVideo) {
-      media.muted = true; media.loop = true; media.playsInline = true; media.controls = true; media.preload = 'metadata';
+      media.muted = true; media.autoplay = true; media.loop = true; media.playsInline = true; media.controls = false; media.preload = 'metadata';
       const poster = artwork.querySelector('img'); if (poster) media.poster = poster.src;
       media.addEventListener('loadedmetadata', () => { ready = true; showMedia(); });
     } else {
