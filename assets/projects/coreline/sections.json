@@ -2,9 +2,9 @@
   {
     "id": "section-01",
     "title": "Cover",
-    "image": "assets/projects/coreline/section-01.webp",
-    "width": 1400,
-    "height": 950,
+    "image": "assets/projects/coreline/cover-20261111.webp",
+    "width": 2048,
+    "height": 1152,
     "transcript": "GAME DEVELOPMENT CASE STUDY\nCORELINE LLM \nGAME\nLOCAL AI • ROBOT AUTOMATION • UNITY / C#\nMINE BY HAND. \nBUILD ROBOTS.\nTELL THEM WHAT TO DO.\nOLLAMA\nUNITY\nC#\nLOCAL LLM"
   },
   {
@@ -34,7 +34,7 @@
   {
     "id": "section-05",
     "title": "The robots",
-    "image": "assets/projects/coreline/section-05.webp",
+    "image": "assets/projects/coreline/robots-20261111.webp",
     "width": 1400,
     "height": 1600,
     "transcript": "04 / THE ROBOTS\nTHREE ROBOTS.\nTHREE SPECIALISED ROLES.\nMINING ROBOT\nThe mining robot extracts ores \nfrom rocks much faster and  \nmore efficient than you. It also \nhas the ability to mine some \nores that the player is not able \nto extract themself.\nCOLLECTION ROBOT\nThe collection robot supports \nyour mining robots as they can \nfollow any mining robot and \ncollect the ores that are \nmined. Once full, you can tell it \nto deliver their inventory into a \nspecific chest.\nSCANNING ROBOT\nThe scanning robot scans the \narea for ore rocks so that the \nother robots are able to see \nthem. The ore rocks within the \nscan area appear with their \nicons above them."
